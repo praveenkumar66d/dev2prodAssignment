@@ -1,0 +1,61 @@
+/* Write your CSS code here */
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: yellow;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+
+.container3 {
+  top: 0px;
+  left: 0px;
+  width: 211px;
+  height: 100vh;
+  background: #605e5e 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 33px #e6f86d;
+  opacity: 1;
+  padding: 15px;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+  justify-content: center;
+}
+.name {
+  color: white;
+  margin-left: 15px;
+  text-align: center;
+}
+.logoutButton {
+  border-width: 0px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: red;
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: 15px;
+  margin-left: 15px;
+}
+.spacing {
+  margin-bottom: 20px;
+}
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.profile-img {
+  top: 831px;
+  left: 78px;
+  width: 56px;
+  height: 56px;
+  margin-left: 15px;
+}
